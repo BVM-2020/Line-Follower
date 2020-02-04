@@ -38,6 +38,8 @@ int Error(){
   sensor[3]=digitalRead(A3);
   sensor[4]=digitalRead(A4);
   
+  //This code is not working
+  
   if((sensor[0]==0)&&(sensor[1]==0)&&(sensor[2]==0)&&(sensor[3]==0)&&(sensor[4]==1))
   error=4;
   else if((sensor[0]==0)&&(sensor[1]==0)&&(sensor[2]==0)&&(sensor[3]==1)&&(sensor[4]==1))
